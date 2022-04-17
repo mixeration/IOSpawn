@@ -1,0 +1,83 @@
+prefix: "&a&lIOSpawn&a:"
+
+messages:
+    english:
+        no-permission: '&7You dont have a permission, permission: &b<permission>'
+        plugin-reloaded: '&7Plugin reloaded.'
+        only-in-game: '&cOnly in game.'
+        list-title: '&a&lHere is all spawn names:'
+        mode-is: '&7Mode is &b<mode>'
+        files-saved: '&7All files are saved.'
+        help-messages:
+            adminisator:
+            - ""
+            - "&a&lIOSpawn &7: &fAdmin commands"
+            - "&8&l ! &f/IOSpawn set <spawnName>"
+            - "&8&l ! &f/IOSpawn remove <spawnName>"
+            - "&8&l ! &f/IOSpawn teleport <spawnName>"
+            - "&8&l ! &f/IOSpawn reload"
+            - "&8&l ! &f/IOSpawn mode"
+            - "&8&l ! &f/IOSpawn save"
+            - "&8&l ! &f/IOSpawn menu"
+            - "&8&l ! &f/IOSpawn list"
+            - ""
+            user:
+            - "&a&lIOSpawn &7: &fUser commands"
+            - "&8&l ! &f/IOSpawn <spawnName>"
+            - "&8&l ! &f/IOSpawn menu"
+            - "&8&l ! &f/IOSpawn list"
+            - ""
+        menu:
+            gui-title: "&8IOSpawn list"
+        console:
+            not-ready: '&7Hey, plugin is not ready yet. Please change readytouse to true after setting first entry and normal entry from config.yml, Then restart the server'
+        error:
+            spawn-not-found: '&f<spawn> &7not found.'
+            not-ready: '&cPlugin not ready, you need to set a spawn and enter the default spawn name in config.'
+            not-enough-level: '&7Not enough level to teleport, &b<yourLevel>&7/<neededLevel>&9&7.'
+            no-data-found: '&7I cant found any spawn data. Maybe you wanna make a spawn ?'
+        spawn:
+            setted: '&7New spawn &f<spawn> &fis setted.'
+            removed: '&f<spawn> &7removed.'
+            choose-different-name: '&7Please choose a different name, this name is used.'
+            teleporting: '&7You are teleporting to &b<spawn>'
+    türkçe:
+        no-permission: '&7Bu işlemi yapmak için &b<permission>&7 yetkisine sahip olman gerek!'
+        plugin-reloaded: '&7Eklenti yenilendi.'
+        only-in-game: '&cKomut yanlızca oyundan kullanılabilir.'
+        list-title: '&a&lBaşlangıçlar:'
+        mode-is: '&7Kullanılan giriş modu: &b<mode>'
+        files-saved: '&7Dosyalar kaydedildi (Belki).'
+        help-messages:
+            adminisator:
+            - ""
+            - "&a&lIOSpawn &7: &fAdmin komutları"
+            - "&8&l ! &f/IOSpawn set <spawnName>"
+            - "&8&l ! &f/IOSpawn remove <spawnName>"
+            - "&8&l ! &f/IOSpawn teleport <spawnName>"
+            - "&8&l ! &f/IOSpawn reload"
+            - "&8&l ! &f/IOSpawn mode"
+            - "&8&l ! &f/IOSpawn save"
+            - "&8&l ! &f/IOSpawn menu"
+            - "&8&l ! &f/IOSpawn list"
+            - ""
+            user:
+            - "&a&lIOSpawn &7: &fKullanıcı komutlar"
+            - "&8&l ! &f/IOSpawn <spawn>"
+            - "&8&l ! &f/IOSpawn menu"
+            - "&8&l ! &f/IOSpawn list"
+            - ""
+        menu:
+            gui-title: "&8Başlangıç listesi"
+        console:
+            not-ready: '&7Hey ! eklenti su anda hazir degil, lutfen default bir spawn secip sectikten sonra config.yml dosyasına gelip readytouse true olarak ayarlayin. Yoksa eklenti calismaz !'
+        error:
+            spawn-not-found: '&f<spawn> &fbulunamadı.'
+            not-ready: '&7Hey, eklentide bir sorun mevcut. Hatayı konsola attım. Bir bakmak istersin belki, Huh ?'
+            not-enough-level: '&7Işınlanmak için yeterli seviyeye sahip değilsin, &b<yourLevel>&7/<neededLevel>&9&7.'
+            no-data-found: '&7Bir başlangıç bulamadım, belki bir tane oluşturmak istersin ?'
+        spawn:
+            setted: '&f<spawn> &fbaşlangıç noktası listesine eklendi !'
+            removed: '&f<spawn> &7silindi.'
+            choose-different-name: '&7Bu isim zaten kullanılıyor.'
+            teleporting: '&7Işınlanıyorsun... &b<spawn>'

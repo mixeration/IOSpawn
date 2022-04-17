@@ -1,0 +1,12 @@
+name: IOSpawn
+version: 'stable'
+main: eu.mixeration.iospawn.iospawn.IOSpawn
+api-version: 1.18
+prefix: IOSpawn
+load: STARTUP
+authors: [Mixeration]
+
+commands:
+    IOSpawn:
+        usage: /IOSpawn
+        aliases: [Spawn]

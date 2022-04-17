@@ -1,0 +1,23 @@
+io-series:
+    Ready-to-use: false
+    date-format: "dd-MM-yyyy HH:mm:ss"
+
+io-spawn:
+    locale: english
+    first-join-spawn: default
+    default-spawn: default
+    join-mode: default # perplayer, player-level, permission
+    permission:
+        examplePermissionMode:
+            permission: iospawn.admin
+            spawn-name: adminSpawn
+    player-level:
+        exampleLevel:
+            level: 5
+            spawn-name: fiveLevelSpawn
+    perplayer:
+        examplePerPlayer:
+            players:
+            - "Mixeration"
+            - "Spiderman"
+            spawn-name: wardenMomsHouse

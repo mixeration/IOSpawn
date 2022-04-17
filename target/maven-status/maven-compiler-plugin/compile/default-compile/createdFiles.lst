@@ -1,0 +1,11 @@
+eu\mixeration\iospawn\iospawn\events\join.class
+eu\mixeration\iospawn\iospawn\commands\player.class
+eu\mixeration\iospawn\iospawn\module\file.class
+eu\mixeration\iospawn\iospawn\module\create.class
+eu\mixeration\iospawn\iospawn\module\gui\clickToTeleport.class
+eu\mixeration\iospawn\iospawn\module\gui\interact.class
+eu\mixeration\iospawn\iospawn\module\get.class
+eu\mixeration\iospawn\iospawn\module\message.class
+eu\mixeration\iospawn\iospawn\module\set.class
+eu\mixeration\iospawn\iospawn\IOSpawn.class
+eu\mixeration\iospawn\iospawn\module\settings.class
